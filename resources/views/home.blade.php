@@ -1,17 +1,24 @@
-@extends('layouts.app')
+@extends('layouts.blank')
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+@push('stylesheets')
+    <!-- Example -->
+    <!--<link href=" <link href="{{ asset("css/myFile.min.css") }}" rel="stylesheet">" rel="stylesheet">-->
+@endpush
 
-                <div class="panel-body">
-                    You are logged in!
-                </div>
-            </div>
-        </div>
+@section('main_container')
+
+    <!-- page content -->
+    <div class="right_col" role="main">
+
     </div>
-</div>
+    <!-- /page content -->
+
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
 @endsection
